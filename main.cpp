@@ -25,6 +25,13 @@ int main() {
 	student s4("Maryam", 6, 19,2);
 	s4.display();
 	s4.calculategrade();
+	// parameterized constructor called and getter methods are used to access the entities
+    student s5("Ayesha", 7, 20, 2.1);
+    cout << "The Name is: " << s5.getname() << endl;
+    cout << "The Roll No is: " << s5.getroll_no() << endl;
+    cout << "The Age is: " << s5.getage() << endl;
+    cout << "The Gpa is: " << s5.getgpa() << endl;
+    s5.calculategrade();
 	cout << endl;
 	return 0;
 }
